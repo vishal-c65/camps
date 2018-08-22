@@ -1,0 +1,8 @@
+
+<h4> Login to YelpCamp !</h4>
+
+<form (ngSubmit)="onSubmit()" >
+    <input type="text" name="username" [(ngModel)]="loggedUser.username" placeholder="Enter username">
+    <input type="password" name="password" [(ngModel)]="loggedUser.password" placeholder="Enter Passowrd">
+    <button type="submit">Submit</button>
+</form>

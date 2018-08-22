@@ -1,0 +1,21 @@
+body
+{
+    background-color: rgb(132, 132, 163);
+}
+.thumbnail img
+{
+    width:100%;
+}
+.thumbnail
+{
+    padding:0;
+}
+#indexthumb
+{
+    padding:2px;
+}
+
+.thumbnail .caption-full
+{
+    padding: 9px;
+}
